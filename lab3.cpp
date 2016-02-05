@@ -79,6 +79,9 @@ int main(int argc, char*argv[]){
 				if (j==0){
 					matriz[i][j]=(rand()%30)+85;
 				}
+				if(j==1){
+					matriz[i][j]=(rand()%30)+150;
+				}
 			}
 		}
 
